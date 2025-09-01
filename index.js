@@ -138,3 +138,79 @@ document.getElementById("submit6").addEventListener("click",
     }
 
 )
+
+
+
+console.log("Oppgave 6");
+
+function star() {
+
+    for (let i = 1; i <= 1; i++) {
+    
+        var item = ""
+              
+
+        for (let i = 0; i < 5; i++) {
+
+            item += "*"
+            
+            console.log(item);
+            
+        }
+    
+    }
+
+}
+
+star();
+
+
+
+function star2() {
+
+    for (let i = 5; i >= 1; i--) {
+    
+        var item = ""
+              
+
+        for (let j = 1; j <= i; j++) {
+
+            item += "*"
+            
+        }
+
+        console.log(item);
+    
+    }
+    
+}
+
+star2()
+
+
+
+console.log("Oppagev 7");
+
+function star3() {
+
+    result = ""
+
+    for (let i = 0; i < 6; i++) {
+        
+        let item2 = ""
+
+        for (let l = 0; l < 6; l++) {
+            
+            item2 += "* "
+            
+        }
+        
+        result += item2 + "\n"
+        
+    }
+
+    console.log(result);
+    
+}
+
+star3()
